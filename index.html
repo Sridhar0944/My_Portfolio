@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="port.css">
+    <title>Sridhar Portfolio</title>
+    <script src="port.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Skills</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+            
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Sridhar</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3><br>
+            <p>I’m a Front-End Developer passionate about building responsive and user-friendly websites. As a fresher, I have a strong foundation in HTML, CSS, JavaScript,Python and SQL, and I love learning new technologies to enhance my skills.</p>
+            <div class="social-media">
+                <a href="mailto:www.sridhar36@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://wa.me/919092236416" target="_blank""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/sridhar0944"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+           <center> <a href="Resume.pdf" class="btn">Download CV</a></center>
+        </div>
+        <div class="home-img">
+            <img src="blue.jpeg" alt="Sridhar">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="WhatsApp Image 2024-11-25 at 9.17.23 PM.jpeg" alt="Sridhar">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About  <span>me</span></h2>
+            <h3 >Frontend Developer</h3>
+            <p>I'm <b>Sridhar</b>, a <span>Frontend Developer</span> passionate about building responsive and user-friendly websites using HTML, CSS, JavaScript, and React. Always learning and eager to create impactful digital experiences.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p style="text-align:center">HTML, CSS, JavaScript, Python and  MySQL</p>
+                
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-windows"></i>
+                <h3>MicroSoft Office</h3>
+                <p style="text-align:center">MS Word, MS Excel, PowerPoint Presentation</p>   
+            </div><br>
+        </div><br>
+        <h2 class="heading">Addtional</h2>
+        <p>Diploma in Full Stack Python Development – CSC Computer Education
+Successfully completed a diploma in Full Stack Python Development with expertise in HTML5, CSS3, Bootstrap, Advanced JavaScript, ReactJS, MySQL, MongoDB, and Django. Achieved an A-Excellent grade.</p>
+        <br>
+        <br><br><br>
+        <center>
+        <a href="Certificate .pdf" class="btn">Certificate</a>
+        </center>
+    </section>
+    <section class="project" id="project">
+    <style>
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #ccc    ;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        p, ul
+        {
+            font-size: 16px;
+            color: #white;
+            text-align: left;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+    </style>
+      <div class="container">
+        <center><h1 style="color:black;font-size:22px;">My Project</h1></center><br>
+        <h2 style="color:black;font-size:24px">E-Commerce Website: </h2><br>
+        <p>This is a responsive e-commerce website built using HTML, CSS, and JavaScript. The website provides a seamless shopping experience with a user-friendly interface and dynamic features.</p><br>
+        
+        <h3 style="color:black;font-size:18px">Project Features:</h3><br>
+        <ul style="color:black;">
+            <li>Modern UI/UX Design</li>
+            <li>Product Listing Page</li>
+            <li>Responsive Design for Mobile & Desktop</li>
+            <li>Search & Filter Options</li>
+        </ul>
+        <br>
+        <h3 style="color:black;font-size:18px">Technologies Used:</h3><br>
+        <ul style="color:black;">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        
+        
+        <center>
+        <a href="e-com.html" class="btn" style="border:2px solid black;color:black;background-color:aqua;">View Live Project</a>
+        </center>
+    </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me</span></h2>
+        <form action="#" id="contact-form">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" id="name">
+                <input type="email" placeholder="Email Address" id="email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" id="mobile">
+                <input type="text" placeholder="Email Subject" id="subject">
+            </div>
+                <textarea name="" id="message" placeholder="Your Message" rows="10"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+                <p id="status"></p>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p style="color: aliceblue;">Copyright &copy;2024 by Sridhar | All Rights Reserved.</p>
+        </div>
+        <div class="footer-icon">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js">
+    </script>
+    <script src="https://unpkg.com/scrollreveal">
+
+    
+
+        ScrollReveal({ 
+    distance: '80px',
+    duration: 2000,
+    delay: 200,  // Changed 'display' to 'delay'
+});
+
+// Revealing elements from the top
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+
+// Revealing elements from the bottom
+ScrollReveal().reveal('.home-img, .services-container, .contact form', { origin: 'bottom' });  // Corrected 'buttom' to 'bottom'
+
+// Revealing elements from the left
+ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
+
+// Revealing elements from the right
+ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+    </script>
+<script>
+        const typed = new Typed('.multiple-text', {
+            strings: ['Frontend Developer'],
+            typeSpeed: 70,
+            backSpeed: 70,
+            backDelay: 1000,
+            loop: true
+        });
+</script>
+
+</body>
+</html>
